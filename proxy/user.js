@@ -1,4 +1,4 @@
-var models = require('../models/user.js');
+var User = require('../models/user.js');
 var utility = require('utility');
 
 exports.newAndSave = function(name, loginname, pass, email, avatar_url, active, callback) {
@@ -10,4 +10,8 @@ exports.newAndSave = function(name, loginname, pass, email, avatar_url, active, 
   user.avatar = avatar_url;
   user.active = active || false;
   user.save(callback);
+};
+
+exports.getUsersByQuery = function (query, opt, callback) {
+  User.find(query, '', opt, callback);
 };

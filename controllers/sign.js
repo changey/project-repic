@@ -1,6 +1,7 @@
 var User = require('../proxy/user.js');
 var url = require('url');
 var eventproxy = require('eventproxy');
+var tools = require('../common/tools');
 
 exports.signup = function(req, res) {
   var url_parts = url.parse(req.url, true);
@@ -17,6 +18,7 @@ exports.signup = function(req, res) {
   var email = "a@a.com";
   var pass = "123";
   var rePass = "123";
+  var avatarUrl = "http://foo.bar";
 
   var ep = new eventproxy();
   User.getUsersByQuery({'$or': [
@@ -27,7 +29,11 @@ exports.signup = function(req, res) {
       return next(err);
     }
     if (users.length > 0) {
-      ep.emit('prop_err', 'The username or the email has been used');
+      // ep.emit('prop_err', 'The username or the email has been used');
+      res.send({
+        inserted: 0,
+        message: 'The username or the email has been used'
+      })
       return;
     }
 
@@ -38,7 +44,10 @@ exports.signup = function(req, res) {
           console.log(err)
           //return next(err);
         } else {
-          console.log("success")
+          res.send({
+            inserted: 1,
+            message: 'inserted user successfully'
+          })
         }
         // 发送激活邮件
         // mail.sendActiveMail(email, utility.md5(email + passhash + config.session_secret), loginname);

@@ -11,4 +11,4 @@ var UserSchema = new Schema({
   profile_image_url: {type: String}
 });
 
-mongoose.model('User', UserSchema);
+module.exports = mongoose.model('User', UserSchema);
