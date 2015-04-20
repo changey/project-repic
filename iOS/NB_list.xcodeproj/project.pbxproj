@@ -646,6 +646,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0420;
+				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = UMVZ96YGX8;
+					};
+				};
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "NB_list" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -788,8 +793,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_ENTITLEMENTS = "";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Yao-Wen Chang (36669NUEY2)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yao-Wen Chang (36669NUEY2)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -802,8 +807,8 @@
 					"\"$(SRCROOT)/urbanairship\"",
 				);
 				PRODUCT_NAME = NB_list;
-				PROVISIONING_PROFILE = "9843FBA9-A965-4ECE-8685-66866D7FDBE0";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9843FBA9-A965-4ECE-8685-66866D7FDBE0";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "11ac7116-b804-4945-82fc-9c7da2434f9f";
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "$SDK_DIR/usr/include/libxml2/**";
 				VALIDATE_PRODUCT = YES;
@@ -817,8 +822,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_ENTITLEMENTS = "";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Yao-Wen Chang (36669NUEY2)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yao-Wen Chang (36669NUEY2)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -833,8 +838,8 @@
 					"\"$(SRCROOT)/urbanairship\"",
 				);
 				PRODUCT_NAME = NB_list;
-				PROVISIONING_PROFILE = "9843FBA9-A965-4ECE-8685-66866D7FDBE0";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9843FBA9-A965-4ECE-8685-66866D7FDBE0";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "11ac7116-b804-4945-82fc-9c7da2434f9f";
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "$SDK_DIR/usr/include/libxml2/**";
 				VALID_ARCHS = armv7;
@@ -847,8 +852,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_ENTITLEMENTS = "";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Yao-Wen Chang (36669NUEY2)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yao-Wen Chang (36669NUEY2)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -861,8 +866,8 @@
 					"\"$(SRCROOT)/urbanairship\"",
 				);
 				PRODUCT_NAME = NB_list;
-				PROVISIONING_PROFILE = "9843FBA9-A965-4ECE-8685-66866D7FDBE0";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9843FBA9-A965-4ECE-8685-66866D7FDBE0";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "11ac7116-b804-4945-82fc-9c7da2434f9f";
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "$SDK_DIR/usr/include/libxml2/**";
 				VALIDATE_PRODUCT = YES;
