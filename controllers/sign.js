@@ -1,4 +1,4 @@
-var User = require('../proxy').User;
+var User = require('../proxy/user.js');
 
 exports.signup = function(req, res) {
   var loginname = req.body.loginname;
@@ -36,4 +36,5 @@ exports.signup = function(req, res) {
       });
 
     }));
+  });
 }

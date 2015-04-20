@@ -1,5 +1,4 @@
-var models = require('../models');
-var User = models.User;
+var models = require('../models/user.js');
 var utility = require('utility');
 
 exports.newAndSave = function(name, loginname, pass, email, avatar_url, active, callback) {

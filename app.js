@@ -1,10 +1,13 @@
 var express = require('express');
 var app = express();
 var sign = require('./controllers/sign.js');
+var webRouter = require('./web_router');
 
 app.get('/', function (req, res) {
   res.send('Hello World!');
 });
+
+app.use('/', webRouter);
 
 var server = app.listen(9701, function () {
 
