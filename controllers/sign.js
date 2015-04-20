@@ -1,10 +1,22 @@
 var User = require('../proxy/user.js');
+var url = require('url');
+var eventproxy = require('eventproxy');
 
 exports.signup = function(req, res) {
-  var loginname = req.body.loginname;
-  var email = req.body.email;
-  var pass = req.body.pass;
-  var rePass = req.body.re_pass;
+  var url_parts = url.parse(req.url, true);
+  var query = url_parts.query;
+
+  //  var loginname = query.depTime;
+
+  // var loginname = req.body.loginname;
+  // var email = req.body.email;
+  // var pass = req.body.pass;
+  // var rePass = req.body.re_pass;
+
+  var loginname = "foo";
+  var email = "a@a.com";
+  var pass = "123";
+  var rePass = "123";
 
   var ep = new eventproxy();
   User.getUsersByQuery({'$or': [
@@ -15,7 +27,7 @@ exports.signup = function(req, res) {
       return next(err);
     }
     if (users.length > 0) {
-      ep.emit('prop_err', '帳戶名或電子信箱已被使用。');
+      ep.emit('prop_err', 'The username or the email has been used');
       return;
     }
 
