@@ -1,0 +1,806 @@
+TNB_list
+v7
+r0
+t339656990.641257
+cCheck dependencies
+cCpResource build/Distribution-iphoneos/NB_list.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+cProcessInfoPlistFile "/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app/Info.plist" NB_list-Info.plist
+cCompileXIB "/Users/mac/Documents/iphone app/pharmacycool/MainWindow.xib"
+cCompileXIB "/Users/mac/Documents/iphone app/pharmacycool/RootViewController.xib"
+cCompileXIB "/Users/mac/Documents/iphone app/pharmacycool/Classes/View2.xib"
+cCpResource build/Distribution-iphoneos/NB_list.app/lightblue.jpg ../lightblue.jpg
+cCompileXIB "/Users/mac/Documents/iphone app/pharmacycool/Classes/piechartViewController.xib"
+cCopyPNGFile "/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app/logo0913.png" ../logo0913.png
+cProcessPCH /var/folders/vS/vSmq6ZgJH8eigCFVs-21z++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NB_list_Prefix-bwmvizzibfwijabasmyftzlbjwpz/NB_list_Prefix.pch.gch NB_list_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/vS/vSmq6ZgJH8eigCFVs-21z++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NB_list_Prefix-bydyimitevgjhnenshktltuegrji/NB_list_Prefix.pch.gch NB_list_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv6/main.o "/Users/mac/Documents/iphone app/pharmacycool/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv6/NB_listAppDelegate.o "/Users/mac/Documents/iphone app/pharmacycool/Classes/NB_listAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv6/RootViewController.o "/Users/mac/Documents/iphone app/pharmacycool/Classes/RootViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv6/View2ViewController.o "/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv6/PiechartViewController.o "/Users/mac/Documents/iphone app/pharmacycool/Classes/PiechartViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv6/PieClass.o "/Users/mac/Documents/iphone app/pharmacycool/Classes/PieClass.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv6/User.o "/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv6/NB_list" normal armv6
+cCompileC build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv7/main.o "/Users/mac/Documents/iphone app/pharmacycool/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv7/NB_listAppDelegate.o "/Users/mac/Documents/iphone app/pharmacycool/Classes/NB_listAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv7/RootViewController.o "/Users/mac/Documents/iphone app/pharmacycool/Classes/RootViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv7/View2ViewController.o "/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv7/PiechartViewController.o "/Users/mac/Documents/iphone app/pharmacycool/Classes/PiechartViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv7/PieClass.o "/Users/mac/Documents/iphone app/pharmacycool/Classes/PieClass.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv7/User.o "/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv7/NB_list" normal armv7
+cCreateUniversalBinary "/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app/NB_list" normal "armv6 armv7"
+cGenerateDSYMFile "/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app.dSYM" "/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app/NB_list"
+cProcessProductPackaging "/Users/mac/Library/MobileDevice/Provisioning Profiles/1322695B-6EEB-4345-A538-B014F72C74E5.mobileprovision" "/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app/embedded.mobileprovision"
+cTouch "/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app"
+cProcessProductPackaging "/Users/mac/Documents/iphone app/pharmacycool/Entitlements.plist" "/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list.xcent"
+cCodeSign "/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app"
+cValidate "/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app"
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
+c000000004D7401890000000000000110
+t1299448201
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+c000000004D4F6A4700000000000001E5
+t1297050183
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54D18C00000000003532A0
+t1297404300
+s3486368
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54D1F500000000003E22F0
+t1297404405
+s4072176
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54D1DD0000000000001466
+t1297404381
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5A28AB0000000000000AA1
+t1297754283
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5A292A0000000000CA2AE0
+t1297754410
+s13249248
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/Availability.h
+c000000004D4F74C20000000000001B19
+t1297052866
+s6937
+
+N/Users/mac/Documents/iphone app/pharmacycool/../lightblue.jpg
+c000000004E5831E20000000000003C22
+t1314402786
+s15394
+
+N/Users/mac/Documents/iphone app/pharmacycool/../logo0913.png
+c000000004E7D5B250000000000002200
+t1316838181
+s8704
+
+N/Users/mac/Documents/iphone app/pharmacycool/Classes/NB_listAppDelegate.h
+c000000004E8E63F300000000000001CB
+t1317954547
+s459
+i<UIKit/UIKit.h>
+
+N/Users/mac/Documents/iphone app/pharmacycool/Classes/NB_listAppDelegate.m
+c000000004E8E64070000000000000AE2
+t1317954567
+s2786
+i"NB_listAppDelegate.h"
+i"RootViewController.h"
+
+N/Users/mac/Documents/iphone app/pharmacycool/Classes/PieClass.h
+c000000004E8E4BEC0000000000000192
+t1317948396
+s402
+i<UIKit/UIKit.h>
+
+N/Users/mac/Documents/iphone app/pharmacycool/Classes/PieClass.m
+c000000004E8E4BFB0000000000000692
+t1317948411
+s1682
+i"PieClass.h"
+
+N/Users/mac/Documents/iphone app/pharmacycool/Classes/PiechartViewController.h
+c000000004E8E7F2600000000000001C9
+t1317961510
+s457
+i<UIKit/UIKit.h>
+i"User.h"
+
+N/Users/mac/Documents/iphone app/pharmacycool/Classes/PiechartViewController.m
+c000000004E8E83750000000000000A5B
+t1317962613
+s2651
+i"PiechartViewController.h"
+i"PieClass.h"
+i"View2ViewController.h"
+i"User.h"
+
+N/Users/mac/Documents/iphone app/pharmacycool/Classes/RootViewController.h
+c000000004E8E4E0D0000000000000217
+t1317948941
+s535
+i<UIKiT/UIKit.h>
+i"View2ViewController.h"
+i"PiechartViewController.h"
+
+N/Users/mac/Documents/iphone app/pharmacycool/Classes/RootViewController.m
+c000000004E8E83B10000000000001343
+t1317962673
+s4931
+i"RootViewController.h"
+
+N/Users/mac/Documents/iphone app/pharmacycool/Classes/User.h
+c000000004E8E72E300000000000001AE
+t1317958371
+s430
+i<Foundation/Foundation.h>
+
+N/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m
+c000000004E8E862000000000000002D3
+t1317963296
+s723
+i"User.h"
+
+N/Users/mac/Documents/iphone app/pharmacycool/Classes/View2.xib
+c000000004E8E79E30000000000009A5E
+t1317960163
+s39518
+
+N/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.h
+c000000004E8E7DBE000000000000062E
+t1317961150
+s1582
+i<UIKit/UIKit.h>
+i"PiechartViewController.h"
+
+N/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m
+c000000004E8E85AF00000000000035D5
+t1317963183
+s13781
+i"View2ViewController.h"
+
+N/Users/mac/Documents/iphone app/pharmacycool/Classes/piechartViewController.xib
+c000000004E8E81B400000000000045BB
+t1317962164
+s17851
+
+N/Users/mac/Documents/iphone app/pharmacycool/Entitlements.plist
+c000000004E8E891A0000000000000221
+t1317964058
+s545
+
+N/Users/mac/Documents/iphone app/pharmacycool/MainWindow.xib
+c000000004E8E43160000000000005FF4
+t1317946134
+s24564
+
+N/Users/mac/Documents/iphone app/pharmacycool/NB_list_Prefix.pch
+c000000004E8E43160000000000000140
+t1317946134
+s320
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/mac/Documents/iphone app/pharmacycool/RootViewController.xib
+c000000004E8E43160000000000004452
+t1317946134
+s17490
+
+N/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app
+t1317964188
+s510
+
+N/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app.dSYM
+t1317964179
+s102
+
+N/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app/Info.plist
+t1317964151
+s875
+
+N/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app/MainWindow.nib
+t1317964159
+s1509
+
+N/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app/NB_list
+t1317964179
+s115068
+
+N/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app/PkgInfo
+t1317964151
+s8
+
+N/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app/ResourceRules.plist
+t1317964151
+s485
+
+N/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app/RootViewController.nib
+t1317964159
+s979
+
+N/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app/View2.nib
+t1317964161
+s3347
+
+N/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app/embedded.mobileprovision
+t1317964179
+s7121
+
+N/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app/lightblue.jpg
+t1317964159
+s15394
+
+N/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app/logo0913.png
+t1317964161
+s10483
+
+N/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app/piechartViewController.nib
+t1317964160
+s1276
+
+N/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list.xcent
+t1317964179
+s417
+
+N/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv6/NB_list
+t1317964174
+s54168
+
+N/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv6/NB_list.LinkFileList
+c000000004E8E897700000000000003C8
+t1317964151
+s968
+
+N/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv6/NB_listAppDelegate.o
+t1317964171
+s55344
+
+N/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv6/PieClass.o
+t1317964173
+s46940
+
+N/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv6/PiechartViewController.o
+t1317964172
+s49620
+
+N/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv6/RootViewController.o
+t1317964172
+s50284
+
+N/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv6/User.o
+t1317964173
+s13532
+
+N/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv6/View2ViewController.o
+t1317964172
+s84316
+
+N/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv6/main.o
+t1317964171
+s10084
+
+N/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv7/NB_list
+t1317964179
+s53628
+
+N/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv7/NB_list.LinkFileList
+c000000004E8E897700000000000003C8
+t1317964151
+s968
+
+N/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv7/NB_listAppDelegate.o
+t1317964177
+s55368
+
+N/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv7/PieClass.o
+t1317964178
+s46332
+
+N/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv7/PiechartViewController.o
+t1317964178
+s49180
+
+N/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv7/RootViewController.o
+t1317964177
+s50312
+
+N/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv7/User.o
+t1317964178
+s13552
+
+N/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv7/View2ViewController.o
+t1317964178
+s83688
+
+N/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv7/main.o
+t1317964177
+s10060
+
+N/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/com.apple.build-tools.platform.validate
+t2
+s0
+
+N/Users/mac/Documents/iphone app/pharmacycool/main.m
+c000000004E8E43160000000000000160
+t1317946134
+s352
+i<UIKit/UIKit.h>
+
+N/Users/mac/Library/MobileDevice/Provisioning Profiles/1322695B-6EEB-4345-A538-B014F72C74E5.mobileprovision
+c000000004E8E893D0000000000001BD1
+t1317964093
+s7121
+
+N/Users/mac/Library/MobileDevice/Provisioning Profiles/1BE44359-0C6C-41BA-9396-A2A2B91EFC82.mobileprovision
+c000000004E80DAD40000000000001D5C
+t1317067476
+s7516
+
+N/var/folders/vS/vSmq6ZgJH8eigCFVs-21z++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NB_list_Prefix-bwmvizzibfwijabasmyftzlbjwpz/NB_list_Prefix.pch.gch
+t1317964167
+s10000284
+
+N/var/folders/vS/vSmq6ZgJH8eigCFVs-21z++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NB_list_Prefix-bydyimitevgjhnenshktltuegrji/NB_list_Prefix.pch.gch
+t1317964170
+s10467228
+
+N/var/folders/vS/vSmq6ZgJH8eigCFVs-21z++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NB_list_Prefix-dyepdkavjkxjkccfizabrwllrflu/NB_list_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/vS/vSmq6ZgJH8eigCFVs-21z++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NB_list_Prefix-fcbswtufqeqemaforatcwqiyqnod/NB_list_Prefix.pch.gch
+t2
+s0
+
+NNB_list-Info.plist
+c000000004E8E890E000000000000037D
+t1317964046
+s893
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies339656950#339656951#0(0"0(0#1#0"8625984416#0"0#
+
+CCodeSign "/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app"
+s339656979.537090
+e339656988.365089
+r1
+xCodeSign
+x/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app
+lSLF07#2@48"CodeSign build/Distribution-iphoneos/NB_list.app339656979#339656988#0(0"0(0#0#84"/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app8609235104#689"    cd "/Users/mac/Documents/iphone app/pharmacycool"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Distribution: Eric Chang" "--resource-rules=/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app/ResourceRules.plist" --entitlements "/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list.xcent" "/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app"0#
+
+CCompileC build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv6/NB_listAppDelegate.o "/Users/mac/Documents/iphone app/pharmacycool/Classes/NB_listAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s339656971.721909
+e339656971.938389
+r1
+xCompileC
+xbuild/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv6/NB_listAppDelegate.o
+x/Users/mac/Documents/iphone app/pharmacycool/Classes/NB_listAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/mac/Documents/iphone app/pharmacycool/Classes/NB_listAppDelegate.m339656971#339656971#0(0"0(0#0#73"/Users/mac/Documents/iphone app/pharmacycool/Classes/NB_listAppDelegate.m8683456800#1935"    cd "/Users/mac/Documents/iphone app/pharmacycool"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote "/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-generated-files.hmap" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-own-target-headers.hmap" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-all-target-headers.hmap" -iquote "/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-project-headers.hmap" "-F/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos" "-I/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/include" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/DerivedSources/armv6" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/vS/vSmq6ZgJH8eigCFVs-21z++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NB_list_Prefix-bwmvizzibfwijabasmyftzlbjwpz/NB_list_Prefix.pch -c "/Users/mac/Documents/iphone app/pharmacycool/Classes/NB_listAppDelegate.m" -o "/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv6/NB_listAppDelegate.o"0#
+
+CCompileC build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv6/PieClass.o "/Users/mac/Documents/iphone app/pharmacycool/Classes/PieClass.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s339656972.868902
+e339656973.050202
+r1
+xCompileC
+xbuild/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv6/PieClass.o
+x/Users/mac/Documents/iphone app/pharmacycool/Classes/PieClass.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/mac/Documents/iphone app/pharmacycool/Classes/PieClass.m339656972#339656973#0(0"0(0#0#63"/Users/mac/Documents/iphone app/pharmacycool/Classes/PieClass.m8627672288#1915"    cd "/Users/mac/Documents/iphone app/pharmacycool"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote "/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-generated-files.hmap" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-own-target-headers.hmap" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-all-target-headers.hmap" -iquote "/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-project-headers.hmap" "-F/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos" "-I/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/include" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/DerivedSources/armv6" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/vS/vSmq6ZgJH8eigCFVs-21z++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NB_list_Prefix-bwmvizzibfwijabasmyftzlbjwpz/NB_list_Prefix.pch -c "/Users/mac/Documents/iphone app/pharmacycool/Classes/PieClass.m" -o "/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv6/PieClass.o"0#
+
+CCompileC build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv6/PiechartViewController.o "/Users/mac/Documents/iphone app/pharmacycool/Classes/PiechartViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s339656972.684374
+e339656972.868705
+r1
+xCompileC
+xbuild/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv6/PiechartViewController.o
+x/Users/mac/Documents/iphone app/pharmacycool/Classes/PiechartViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/mac/Documents/iphone app/pharmacycool/Classes/PiechartViewController.m339656972#339656972#0(0"0(0#0#77"/Users/mac/Documents/iphone app/pharmacycool/Classes/PiechartViewController.m8686035552#1943"    cd "/Users/mac/Documents/iphone app/pharmacycool"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote "/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-generated-files.hmap" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-own-target-headers.hmap" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-all-target-headers.hmap" -iquote "/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-project-headers.hmap" "-F/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos" "-I/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/include" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/DerivedSources/armv6" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/vS/vSmq6ZgJH8eigCFVs-21z++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NB_list_Prefix-bwmvizzibfwijabasmyftzlbjwpz/NB_list_Prefix.pch -c "/Users/mac/Documents/iphone app/pharmacycool/Classes/PiechartViewController.m" -o "/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv6/PiechartViewController.o"0#
+
+CCompileC build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv6/RootViewController.o "/Users/mac/Documents/iphone app/pharmacycool/Classes/RootViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s339656971.938513
+e339656972.121972
+r1
+xCompileC
+xbuild/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv6/RootViewController.o
+x/Users/mac/Documents/iphone app/pharmacycool/Classes/RootViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/mac/Documents/iphone app/pharmacycool/Classes/RootViewController.m: In function '-[RootViewController tableView:cellForRowAtIndexPath:]':
+o/Users/mac/Documents/iphone app/pharmacycool/Classes/RootViewController.m:87: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)
+o/Users/mac/Documents/iphone app/pharmacycool/Classes/RootViewController.m:90: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)
+lSLF07#2@81"Compile /Users/mac/Documents/iphone app/pharmacycool/Classes/RootViewController.m339656971#339656972#0(681"/Users/mac/Documents/iphone app/pharmacycool/Classes/RootViewController.m: In function '-[RootViewController tableView:cellForRowAtIndexPath:]':/Users/mac/Documents/iphone app/pharmacycool/Classes/RootViewController.m:87: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)/Users/mac/Documents/iphone app/pharmacycool/Classes/RootViewController.m:90: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)2(22@180"'setText:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)339656972#145#268#0(6@73"/Users/mac/Documents/iphone app/pharmacycool/Classes/RootViewController.m339655473#87#0#87#0#33"'*' is deprecated (declared at *)0(22@180"'setText:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)339656972#413#268#0(6@73"/Users/mac/Documents/iphone app/pharmacycool/Classes/RootViewController.m339655473#90#0#90#0#33"'*' is deprecated (declared at *)0(0#0#73"/Users/mac/Documents/iphone app/pharmacycool/Classes/RootViewController.m8682395328#1935"    cd "/Users/mac/Documents/iphone app/pharmacycool"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote "/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-generated-files.hmap" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-own-target-headers.hmap" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-all-target-headers.hmap" -iquote "/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-project-headers.hmap" "-F/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos" "-I/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/include" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/DerivedSources/armv6" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/vS/vSmq6ZgJH8eigCFVs-21z++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NB_list_Prefix-bwmvizzibfwijabasmyftzlbjwpz/NB_list_Prefix.pch -c "/Users/mac/Documents/iphone app/pharmacycool/Classes/RootViewController.m" -o "/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv6/RootViewController.o"0#
+
+CCompileC build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv6/User.o "/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s339656973.050312
+e339656973.144221
+r1
+xCompileC
+xbuild/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv6/User.o
+x/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m: In function '+[User allocWithZone:]':
+o/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m:24: warning: 'User' may not respond to '+sharedManager'
+o/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m:24: warning: (Messages without a matching method signature
+o/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m:24: warning: will be assumed to return 'id' and accept
+o/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m:24: warning: '...' as arguments.)
+o/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m: At top level:
+o/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m:41: warning: property 'correct' requires method '-correct' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m:41: warning: property 'correct' requires the method 'setCorrect:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m:41: warning: property 'total' requires method '-total' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m:41: warning: property 'total' requires the method 'setTotal:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@67"Compile /Users/mac/Documents/iphone app/pharmacycool/Classes/User.m339656973#339656973#0(1408"/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m: In function '+[User allocWithZone:]':/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m:24: warning: 'User' may not respond to '+sharedManager'/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m:24: warning: (Messages without a matching method signature/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m:24: warning: will be assumed to return 'id' and accept/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m:24: warning: '...' as arguments.)/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m: At top level:/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m:41: warning: property 'correct' requires method '-correct' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m:41: warning: property 'correct' requires the method 'setCorrect:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m:41: warning: property 'total' requires method '-total' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m:41: warning: property 'total' requires the method 'setTotal:' to be defined - use @synthesize, @dynamic or provide a method implementation7(22@42"'User' may not respond to '+sharedManager'339656973#99#116#0(6@59"/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m339656096#24#0#24#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)339656973#215#119#0(6@59"/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m339656096#24#0#24#0#0"0(23@13"At top level:339656973#543#75#0(6@59"/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m339656096#0#0#0#0#0"0(22@122"Property 'correct' requires method '-correct' to be defined - use @synthesize, @dynamic or provide a method implementation339656973#618#196#0(6@59"/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m339656096#41#0#41#0#0"0(22@129"Property 'correct' requires the method 'setCorrect:' to be defined - use @synthesize, @dynamic or provide a method implementation339656973#814#203#0(6@59"/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m339656096#41#0#41#0#0"0(22@118"Property 'total' requires method '-total' to be defined - use @synthesize, @dynamic or provide a method implementation339656973#1017#192#0(6@59"/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m339656096#41#0#41#0#0"0(22@125"Property 'total' requires the method 'setTotal:' to be defined - use @synthesize, @dynamic or provide a method implementation339656973#1209#199#0(6@59"/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m339656096#41#0#41#0#0"0(0#0#59"/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m8685518496#1907"    cd "/Users/mac/Documents/iphone app/pharmacycool"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote "/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-generated-files.hmap" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-own-target-headers.hmap" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-all-target-headers.hmap" -iquote "/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-project-headers.hmap" "-F/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos" "-I/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/include" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/DerivedSources/armv6" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/vS/vSmq6ZgJH8eigCFVs-21z++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NB_list_Prefix-bwmvizzibfwijabasmyftzlbjwpz/NB_list_Prefix.pch -c "/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m" -o "/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv6/User.o"0#
+
+CCompileC build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv6/View2ViewController.o "/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s339656972.122087
+e339656972.684228
+r1
+xCompileC
+xbuild/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv6/View2ViewController.o
+x/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m: In function '-[View2ViewController buttonOne]':
+o/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m:193: warning: 'View2ViewController' may not respond to '-checkAnswer:'
+o/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m:193: warning: (Messages without a matching method signature
+o/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m:193: warning: will be assumed to return 'id' and accept
+o/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m:193: warning: '...' as arguments.)
+o/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m: In function '-[View2ViewController buttonTwo]':
+o/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m:205: warning: 'View2ViewController' may not respond to '-checkAnswer:'
+o/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m: In function '-[View2ViewController buttonThree]':
+o/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m:212: warning: 'View2ViewController' may not respond to '-checkAnswer:'
+o/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m: In function '-[View2ViewController buttonFour]':
+o/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m:219: warning: 'View2ViewController' may not respond to '-checkAnswer:'
+o/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m: At top level:
+o/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m:531: warning: incomplete implementation of class 'View2ViewController'
+o/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m:531: warning: method definition for '-checkAnswer' not found
+o/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m:531: warning: method definition for '-submit' not found
+lSLF07#2@82"Compile /Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m339656972#339656972#0(1962"/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m: In function '-[View2ViewController buttonOne]':/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m:193: warning: 'View2ViewController' may not respond to '-checkAnswer:'/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m:193: warning: (Messages without a matching method signature/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m:193: warning: will be assumed to return 'id' and accept/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m:193: warning: '...' as arguments.)/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m: In function '-[View2ViewController buttonTwo]':/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m:205: warning: 'View2ViewController' may not respond to '-checkAnswer:'/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m: In function '-[View2ViewController buttonThree]':/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m:212: warning: 'View2ViewController' may not respond to '-checkAnswer:'/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m: In function '-[View2ViewController buttonFour]':/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m:219: warning: 'View2ViewController' may not respond to '-checkAnswer:'/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m: At top level:/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m:531: warning: incomplete implementation of class 'View2ViewController'/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m:531: warning: method definition for '-checkAnswer' not found/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m:531: warning: method definition for '-submit' not found9(22@56"'View2ViewController' may not respond to '-checkAnswer:'339656972#124#146#0(6@74"/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m339655983#193#0#193#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)339656972#270#135#0(6@74"/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m339655983#193#0#193#0#0"0(22@56"'View2ViewController' may not respond to '-checkAnswer:'339656972#770#146#0(6@74"/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m339655983#205#0#205#0#26"'*' may not respond to '*'0(22@56"'View2ViewController' may not respond to '-checkAnswer:'339656972#1042#146#0(6@74"/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m339655983#212#0#212#0#26"'*' may not respond to '*'0(22@56"'View2ViewController' may not respond to '-checkAnswer:'339656972#1313#146#0(6@74"/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m339655983#219#0#219#0#26"'*' may not respond to '*'0(23@13"At top level:339656972#1459#90#0(6@74"/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m339655983#0#0#0#0#0"0(22@56"Incomplete implementation of class 'View2ViewController'339656972#1549#146#0(6@74"/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m339655983#531#0#531#0#38"incomplete implementation of class '*'0(22@46"Method definition for '-checkAnswer' not found339656972#1695#136#0(6@74"/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m339655983#531#0#531#0#35"method definition for '*' not found0(22@41"Method definition for '-submit' not found339656972#1831#131#0(6@74"/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m339655983#531#0#531#0#35"method definition for '*' not found0(0#0#74"/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m8675183168#1937"    cd "/Users/mac/Documents/iphone app/pharmacycool"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote "/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-generated-files.hmap" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-own-target-headers.hmap" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-all-target-headers.hmap" -iquote "/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-project-headers.hmap" "-F/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos" "-I/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/include" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/DerivedSources/armv6" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/vS/vSmq6ZgJH8eigCFVs-21z++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NB_list_Prefix-bwmvizzibfwijabasmyftzlbjwpz/NB_list_Prefix.pch -c "/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m" -o "/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv6/View2ViewController.o"0#
+
+CCompileC build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv6/main.o "/Users/mac/Documents/iphone app/pharmacycool/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s339656971.341684
+e339656971.721749
+r1
+xCompileC
+xbuild/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv6/main.o
+x/Users/mac/Documents/iphone app/pharmacycool/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/mac/Documents/iphone app/pharmacycool/main.m339656971#339656971#0(0"0(0#0#51"/Users/mac/Documents/iphone app/pharmacycool/main.m8686283008#1899"    cd "/Users/mac/Documents/iphone app/pharmacycool"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote "/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-generated-files.hmap" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-own-target-headers.hmap" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-all-target-headers.hmap" -iquote "/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-project-headers.hmap" "-F/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos" "-I/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/include" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/DerivedSources/armv6" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/vS/vSmq6ZgJH8eigCFVs-21z++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NB_list_Prefix-bwmvizzibfwijabasmyftzlbjwpz/NB_list_Prefix.pch -c "/Users/mac/Documents/iphone app/pharmacycool/main.m" -o "/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv6/main.o"0#
+
+CCompileC build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv7/NB_listAppDelegate.o "/Users/mac/Documents/iphone app/pharmacycool/Classes/NB_listAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s339656977.223045
+e339656977.682705
+r1
+xCompileC
+xbuild/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv7/NB_listAppDelegate.o
+x/Users/mac/Documents/iphone app/pharmacycool/Classes/NB_listAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/mac/Documents/iphone app/pharmacycool/Classes/NB_listAppDelegate.m339656977#339656977#0(0"0(0#0#73"/Users/mac/Documents/iphone app/pharmacycool/Classes/NB_listAppDelegate.m8625852320#1935"    cd "/Users/mac/Documents/iphone app/pharmacycool"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote "/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-generated-files.hmap" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-own-target-headers.hmap" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-all-target-headers.hmap" -iquote "/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-project-headers.hmap" "-F/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos" "-I/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/include" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/DerivedSources/armv7" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/vS/vSmq6ZgJH8eigCFVs-21z++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NB_list_Prefix-bydyimitevgjhnenshktltuegrji/NB_list_Prefix.pch -c "/Users/mac/Documents/iphone app/pharmacycool/Classes/NB_listAppDelegate.m" -o "/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv7/NB_listAppDelegate.o"0#
+
+CCompileC build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv7/PieClass.o "/Users/mac/Documents/iphone app/pharmacycool/Classes/PieClass.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s339656978.585786
+e339656978.727263
+r1
+xCompileC
+xbuild/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv7/PieClass.o
+x/Users/mac/Documents/iphone app/pharmacycool/Classes/PieClass.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/mac/Documents/iphone app/pharmacycool/Classes/PieClass.m339656978#339656978#0(0"0(0#0#63"/Users/mac/Documents/iphone app/pharmacycool/Classes/PieClass.m8683420192#1915"    cd "/Users/mac/Documents/iphone app/pharmacycool"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote "/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-generated-files.hmap" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-own-target-headers.hmap" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-all-target-headers.hmap" -iquote "/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-project-headers.hmap" "-F/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos" "-I/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/include" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/DerivedSources/armv7" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/vS/vSmq6ZgJH8eigCFVs-21z++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NB_list_Prefix-bydyimitevgjhnenshktltuegrji/NB_list_Prefix.pch -c "/Users/mac/Documents/iphone app/pharmacycool/Classes/PieClass.m" -o "/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv7/PieClass.o"0#
+
+CCompileC build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv7/PiechartViewController.o "/Users/mac/Documents/iphone app/pharmacycool/Classes/PiechartViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s339656978.422940
+e339656978.585664
+r1
+xCompileC
+xbuild/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv7/PiechartViewController.o
+x/Users/mac/Documents/iphone app/pharmacycool/Classes/PiechartViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/mac/Documents/iphone app/pharmacycool/Classes/PiechartViewController.m339656978#339656978#0(0"0(0#0#77"/Users/mac/Documents/iphone app/pharmacycool/Classes/PiechartViewController.m8613591232#1943"    cd "/Users/mac/Documents/iphone app/pharmacycool"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote "/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-generated-files.hmap" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-own-target-headers.hmap" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-all-target-headers.hmap" -iquote "/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-project-headers.hmap" "-F/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos" "-I/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/include" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/DerivedSources/armv7" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/vS/vSmq6ZgJH8eigCFVs-21z++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NB_list_Prefix-bydyimitevgjhnenshktltuegrji/NB_list_Prefix.pch -c "/Users/mac/Documents/iphone app/pharmacycool/Classes/PiechartViewController.m" -o "/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv7/PiechartViewController.o"0#
+
+CCompileC build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv7/RootViewController.o "/Users/mac/Documents/iphone app/pharmacycool/Classes/RootViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s339656977.682826
+e339656977.854196
+r1
+xCompileC
+xbuild/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv7/RootViewController.o
+x/Users/mac/Documents/iphone app/pharmacycool/Classes/RootViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/mac/Documents/iphone app/pharmacycool/Classes/RootViewController.m: In function '-[RootViewController tableView:cellForRowAtIndexPath:]':
+o/Users/mac/Documents/iphone app/pharmacycool/Classes/RootViewController.m:87: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)
+o/Users/mac/Documents/iphone app/pharmacycool/Classes/RootViewController.m:90: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)
+lSLF07#2@81"Compile /Users/mac/Documents/iphone app/pharmacycool/Classes/RootViewController.m339656977#339656977#0(681"/Users/mac/Documents/iphone app/pharmacycool/Classes/RootViewController.m: In function '-[RootViewController tableView:cellForRowAtIndexPath:]':/Users/mac/Documents/iphone app/pharmacycool/Classes/RootViewController.m:87: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)/Users/mac/Documents/iphone app/pharmacycool/Classes/RootViewController.m:90: warning: 'setText:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)2(22@180"'setText:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)339656977#145#268#0(6@73"/Users/mac/Documents/iphone app/pharmacycool/Classes/RootViewController.m339655473#87#0#87#0#33"'*' is deprecated (declared at *)0(22@180"'setText:' is deprecated (declared at /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h:213)339656977#413#268#0(6@73"/Users/mac/Documents/iphone app/pharmacycool/Classes/RootViewController.m339655473#90#0#90#0#33"'*' is deprecated (declared at *)0(0#0#73"/Users/mac/Documents/iphone app/pharmacycool/Classes/RootViewController.m8682713568#1935"    cd "/Users/mac/Documents/iphone app/pharmacycool"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote "/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-generated-files.hmap" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-own-target-headers.hmap" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-all-target-headers.hmap" -iquote "/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-project-headers.hmap" "-F/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos" "-I/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/include" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/DerivedSources/armv7" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/vS/vSmq6ZgJH8eigCFVs-21z++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NB_list_Prefix-bydyimitevgjhnenshktltuegrji/NB_list_Prefix.pch -c "/Users/mac/Documents/iphone app/pharmacycool/Classes/RootViewController.m" -o "/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv7/RootViewController.o"0#
+
+CCompileC build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv7/User.o "/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s339656978.727484
+e339656978.824409
+r1
+xCompileC
+xbuild/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv7/User.o
+x/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m: In function '+[User allocWithZone:]':
+o/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m:24: warning: 'User' may not respond to '+sharedManager'
+o/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m:24: warning: (Messages without a matching method signature
+o/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m:24: warning: will be assumed to return 'id' and accept
+o/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m:24: warning: '...' as arguments.)
+o/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m: At top level:
+o/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m:41: warning: property 'correct' requires method '-correct' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m:41: warning: property 'correct' requires the method 'setCorrect:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m:41: warning: property 'total' requires method '-total' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m:41: warning: property 'total' requires the method 'setTotal:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@67"Compile /Users/mac/Documents/iphone app/pharmacycool/Classes/User.m339656978#339656978#0(1408"/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m: In function '+[User allocWithZone:]':/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m:24: warning: 'User' may not respond to '+sharedManager'/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m:24: warning: (Messages without a matching method signature/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m:24: warning: will be assumed to return 'id' and accept/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m:24: warning: '...' as arguments.)/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m: At top level:/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m:41: warning: property 'correct' requires method '-correct' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m:41: warning: property 'correct' requires the method 'setCorrect:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m:41: warning: property 'total' requires method '-total' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m:41: warning: property 'total' requires the method 'setTotal:' to be defined - use @synthesize, @dynamic or provide a method implementation7(22@42"'User' may not respond to '+sharedManager'339656978#99#116#0(6@59"/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m339656096#24#0#24#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)339656978#215#119#0(6@59"/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m339656096#24#0#24#0#0"0(23@13"At top level:339656978#543#75#0(6@59"/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m339656096#0#0#0#0#0"0(22@122"Property 'correct' requires method '-correct' to be defined - use @synthesize, @dynamic or provide a method implementation339656978#618#196#0(6@59"/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m339656096#41#0#41#0#0"0(22@129"Property 'correct' requires the method 'setCorrect:' to be defined - use @synthesize, @dynamic or provide a method implementation339656978#814#203#0(6@59"/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m339656096#41#0#41#0#0"0(22@118"Property 'total' requires method '-total' to be defined - use @synthesize, @dynamic or provide a method implementation339656978#1017#192#0(6@59"/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m339656096#41#0#41#0#0"0(22@125"Property 'total' requires the method 'setTotal:' to be defined - use @synthesize, @dynamic or provide a method implementation339656978#1209#199#0(6@59"/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m339656096#41#0#41#0#0"0(0#0#59"/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m8622190016#1907"    cd "/Users/mac/Documents/iphone app/pharmacycool"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote "/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-generated-files.hmap" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-own-target-headers.hmap" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-all-target-headers.hmap" -iquote "/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-project-headers.hmap" "-F/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos" "-I/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/include" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/DerivedSources/armv7" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/vS/vSmq6ZgJH8eigCFVs-21z++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NB_list_Prefix-bydyimitevgjhnenshktltuegrji/NB_list_Prefix.pch -c "/Users/mac/Documents/iphone app/pharmacycool/Classes/User.m" -o "/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv7/User.o"0#
+
+CCompileC build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv7/View2ViewController.o "/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s339656977.854317
+e339656978.422825
+r1
+xCompileC
+xbuild/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv7/View2ViewController.o
+x/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m: In function '-[View2ViewController buttonOne]':
+o/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m:193: warning: 'View2ViewController' may not respond to '-checkAnswer:'
+o/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m:193: warning: (Messages without a matching method signature
+o/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m:193: warning: will be assumed to return 'id' and accept
+o/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m:193: warning: '...' as arguments.)
+o/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m: In function '-[View2ViewController buttonTwo]':
+o/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m:205: warning: 'View2ViewController' may not respond to '-checkAnswer:'
+o/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m: In function '-[View2ViewController buttonThree]':
+o/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m:212: warning: 'View2ViewController' may not respond to '-checkAnswer:'
+o/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m: In function '-[View2ViewController buttonFour]':
+o/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m:219: warning: 'View2ViewController' may not respond to '-checkAnswer:'
+o/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m: At top level:
+o/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m:531: warning: incomplete implementation of class 'View2ViewController'
+o/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m:531: warning: method definition for '-checkAnswer' not found
+o/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m:531: warning: method definition for '-submit' not found
+lSLF07#2@82"Compile /Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m339656977#339656978#0(1962"/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m: In function '-[View2ViewController buttonOne]':/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m:193: warning: 'View2ViewController' may not respond to '-checkAnswer:'/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m:193: warning: (Messages without a matching method signature/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m:193: warning: will be assumed to return 'id' and accept/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m:193: warning: '...' as arguments.)/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m: In function '-[View2ViewController buttonTwo]':/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m:205: warning: 'View2ViewController' may not respond to '-checkAnswer:'/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m: In function '-[View2ViewController buttonThree]':/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m:212: warning: 'View2ViewController' may not respond to '-checkAnswer:'/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m: In function '-[View2ViewController buttonFour]':/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m:219: warning: 'View2ViewController' may not respond to '-checkAnswer:'/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m: At top level:/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m:531: warning: incomplete implementation of class 'View2ViewController'/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m:531: warning: method definition for '-checkAnswer' not found/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m:531: warning: method definition for '-submit' not found9(22@56"'View2ViewController' may not respond to '-checkAnswer:'339656977#124#146#0(6@74"/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m339655983#193#0#193#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)339656977#270#135#0(6@74"/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m339655983#193#0#193#0#0"0(22@56"'View2ViewController' may not respond to '-checkAnswer:'339656977#770#146#0(6@74"/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m339655983#205#0#205#0#26"'*' may not respond to '*'0(22@56"'View2ViewController' may not respond to '-checkAnswer:'339656977#1042#146#0(6@74"/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m339655983#212#0#212#0#26"'*' may not respond to '*'0(22@56"'View2ViewController' may not respond to '-checkAnswer:'339656977#1313#146#0(6@74"/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m339655983#219#0#219#0#26"'*' may not respond to '*'0(23@13"At top level:339656977#1459#90#0(6@74"/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m339655983#0#0#0#0#0"0(22@56"Incomplete implementation of class 'View2ViewController'339656977#1549#146#0(6@74"/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m339655983#531#0#531#0#38"incomplete implementation of class '*'0(22@46"Method definition for '-checkAnswer' not found339656977#1695#136#0(6@74"/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m339655983#531#0#531#0#35"method definition for '*' not found0(22@41"Method definition for '-submit' not found339656977#1831#131#0(6@74"/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m339655983#531#0#531#0#35"method definition for '*' not found0(0#0#74"/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m8684033600#1937"    cd "/Users/mac/Documents/iphone app/pharmacycool"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote "/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-generated-files.hmap" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-own-target-headers.hmap" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-all-target-headers.hmap" -iquote "/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-project-headers.hmap" "-F/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos" "-I/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/include" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/DerivedSources/armv7" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/vS/vSmq6ZgJH8eigCFVs-21z++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NB_list_Prefix-bydyimitevgjhnenshktltuegrji/NB_list_Prefix.pch -c "/Users/mac/Documents/iphone app/pharmacycool/Classes/View2ViewController.m" -o "/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv7/View2ViewController.o"0#
+
+CCompileC build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv7/main.o "/Users/mac/Documents/iphone app/pharmacycool/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s339656974.348263
+e339656977.222798
+r1
+xCompileC
+xbuild/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv7/main.o
+x/Users/mac/Documents/iphone app/pharmacycool/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@59"Compile /Users/mac/Documents/iphone app/pharmacycool/main.m339656974#339656977#0(0"0(0#0#51"/Users/mac/Documents/iphone app/pharmacycool/main.m8683696704#1899"    cd "/Users/mac/Documents/iphone app/pharmacycool"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote "/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-generated-files.hmap" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-own-target-headers.hmap" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-all-target-headers.hmap" -iquote "/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-project-headers.hmap" "-F/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos" "-I/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/include" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/DerivedSources/armv7" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/vS/vSmq6ZgJH8eigCFVs-21z++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NB_list_Prefix-bydyimitevgjhnenshktltuegrji/NB_list_Prefix.pch -c "/Users/mac/Documents/iphone app/pharmacycool/main.m" -o "/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv7/main.o"0#
+
+CCompileXIB "/Users/mac/Documents/iphone app/pharmacycool/Classes/View2.xib"
+s339656959.514612
+e339656961.743850
+r1
+xCompileXIB
+x/Users/mac/Documents/iphone app/pharmacycool/Classes/View2.xib
+o2011-10-07 01:09:20.901 Interface Builder Cocoa Touch Tool[5693:1803] CFPreferences: user home directory at file://localhost/Users/mac/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF07#2@28"CompileXIB Classes/View2.xib339656959#339656961#0(237"2011-10-07 01:09:20.901 Interface Builder Cocoa Touch Tool[5693:1803] CFPreferences: user home directory at file://localhost/Users/mac/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.0(0#0#62"/Users/mac/Documents/iphone app/pharmacycool/Classes/View2.xib8687756160#571"    cd "/Users/mac/Documents/iphone app/pharmacycool"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app/View2.nib" "/Users/mac/Documents/iphone app/pharmacycool/Classes/View2.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCompileXIB "/Users/mac/Documents/iphone app/pharmacycool/Classes/piechartViewController.xib"
+s339656959.547092
+e339656960.951157
+r1
+xCompileXIB
+x/Users/mac/Documents/iphone app/pharmacycool/Classes/piechartViewController.xib
+o2011-10-07 01:09:20.640 Interface Builder Cocoa Touch Tool[5692:1803] CFPreferences: user home directory at file://localhost/Users/mac/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF07#2@45"CompileXIB Classes/piechartViewController.xib339656959#339656960#0(237"2011-10-07 01:09:20.640 Interface Builder Cocoa Touch Tool[5692:1803] CFPreferences: user home directory at file://localhost/Users/mac/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.0(0#0#79"/Users/mac/Documents/iphone app/pharmacycool/Classes/piechartViewController.xib8686860352#605"    cd "/Users/mac/Documents/iphone app/pharmacycool"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app/piechartViewController.nib" "/Users/mac/Documents/iphone app/pharmacycool/Classes/piechartViewController.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCompileXIB "/Users/mac/Documents/iphone app/pharmacycool/MainWindow.xib"
+s339656951.469119
+e339656959.529100
+r1
+xCompileXIB
+x/Users/mac/Documents/iphone app/pharmacycool/MainWindow.xib
+o2011-10-07 01:09:18.663 Interface Builder Cocoa Touch Tool[5687:1803] CFPreferences: user home directory at file://localhost/Users/mac/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF07#2@25"CompileXIB MainWindow.xib339656951#339656959#0(237"2011-10-07 01:09:18.663 Interface Builder Cocoa Touch Tool[5687:1803] CFPreferences: user home directory at file://localhost/Users/mac/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.0(0#0#59"/Users/mac/Documents/iphone app/pharmacycool/MainWindow.xib8686909312#573"    cd "/Users/mac/Documents/iphone app/pharmacycool"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app/MainWindow.nib" "/Users/mac/Documents/iphone app/pharmacycool/MainWindow.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCompileXIB "/Users/mac/Documents/iphone app/pharmacycool/RootViewController.xib"
+s339656951.470167
+e339656959.514367
+r1
+xCompileXIB
+x/Users/mac/Documents/iphone app/pharmacycool/RootViewController.xib
+o2011-10-07 01:09:18.662 Interface Builder Cocoa Touch Tool[5688:1803] CFPreferences: user home directory at file://localhost/Users/mac/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF07#2@33"CompileXIB RootViewController.xib339656951#339656959#0(237"2011-10-07 01:09:18.662 Interface Builder Cocoa Touch Tool[5688:1803] CFPreferences: user home directory at file://localhost/Users/mac/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.0(0#0#67"/Users/mac/Documents/iphone app/pharmacycool/RootViewController.xib8682848192#589"    cd "/Users/mac/Documents/iphone app/pharmacycool"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app/RootViewController.nib" "/Users/mac/Documents/iphone app/pharmacycool/RootViewController.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk0#
+
+CCopyPNGFile "/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app/logo0913.png" ../logo0913.png
+s339656960.951315
+e339656961.947679
+r1
+xCopyPNGFile
+x/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app/logo0913.png
+x../logo0913.png
+lSLF07#2@80"CopyPNGFile build/Distribution-iphoneos/NB_list.app/logo0913.png ../logo0913.png339656960#339656961#0(0"0(0#0#60"/Users/mac/Documents/iphone app/pharmacycool/../logo0913.png8621286720#498"    cd "/Users/mac/Documents/iphone app/pharmacycool"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/mac/Documents/iphone app/pharmacycool/../logo0913.png" "/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app/logo0913.png"0#
+
+CCpResource build/Distribution-iphoneos/NB_list.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+s339656951.139113
+e339656951.468992
+r1
+xCpResource
+xbuild/Distribution-iphoneos/NB_list.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist339656951#339656951#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist8683121152#538"    cd "/Users/mac/Documents/iphone app/pharmacycool"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist "/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app"0#
+
+CCpResource build/Distribution-iphoneos/NB_list.app/lightblue.jpg ../lightblue.jpg
+s339656959.529585
+e339656959.762765
+r1
+xCpResource
+xbuild/Distribution-iphoneos/NB_list.app/lightblue.jpg
+x../lightblue.jpg
+lSLF07#2@21"Copy ../lightblue.jpg339656959#339656959#0(0"0(0#0#61"/Users/mac/Documents/iphone app/pharmacycool/../lightblue.jpg8687100320#512"    cd "/Users/mac/Documents/iphone app/pharmacycool"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks "/Users/mac/Documents/iphone app/pharmacycool/../lightblue.jpg" "/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app"0#
+
+CCreateUniversalBinary "/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app/NB_list" normal "armv6 armv7"
+s339656979.190324
+e339656979.215803
+r1
+xCreateUniversalBinary
+x/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app/NB_list
+xnormal
+xarmv6 armv7
+lSLF07#2@90"CreateUniversalBinary build/Distribution-iphoneos/NB_list.app/NB_list normal "armv6 armv7"339656979#339656979#0(0"0(0#0#56"/Users/mac/Documents/iphone app/pharmacycool/armv6 armv78685398400#571"    cd "/Users/mac/Documents/iphone app/pharmacycool"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create "/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv6/NB_list" "/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv7/NB_list" -output "/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app/NB_list"0#
+
+CGenerateDSYMFile "/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app.dSYM" "/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app/NB_list"
+s339656979.215915
+e339656979.443971
+r1
+xGenerateDSYMFile
+x/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app.dSYM
+x/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app/NB_list
+lSLF07#2@109"GenerateDSYMFile build/Distribution-iphoneos/NB_list.app.dSYM build/Distribution-iphoneos/NB_list.app/NB_list339656979#339656979#0(0"0(0#0#92"/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app/NB_list8682506048#400"    cd "/Users/mac/Documents/iphone app/pharmacycool"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app/NB_list" -o "/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app.dSYM"0#
+
+CLd "/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv6/NB_list" normal armv6
+s339656973.144336
+e339656974.348144
+r1
+xLd
+x/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv6/NB_list
+xnormal
+xarmv6
+lSLF07#2@134"Link /Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv6/NB_list339656973#339656974#0(0"0(0#0#0"8683772672#927"    cd "/Users/mac/Documents/iphone app/pharmacycool"    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk "-L/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos" "-F/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos" -filelist "/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv6/NB_list.LinkFileList" -dead_strip -miphoneos-version-min=3.1 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv6/NB_list"0#
+
+CLd "/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv7/NB_list" normal armv7
+s339656978.824687
+e339656979.190200
+r1
+xLd
+x/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv7/NB_list
+xnormal
+xarmv7
+lSLF07#2@134"Link /Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv7/NB_list339656978#339656979#0(0"0(0#0#0"8687182624#927"    cd "/Users/mac/Documents/iphone app/pharmacycool"    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk "-L/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos" "-F/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos" -filelist "/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv7/NB_list.LinkFileList" -dead_strip -miphoneos-version-min=3.1 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/Objects-normal/armv7/NB_list"0#
+
+CProcessInfoPlistFile "/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app/Info.plist" NB_list-Info.plist
+s339656951.201162
+e339656951.388661
+r1
+xProcessInfoPlistFile
+x/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app/Info.plist
+xNB_list-Info.plist
+lSLF07#2@26"Process NB_list-Info.plist339656951#339656951#0(0"0(0#0#63"/Users/mac/Documents/iphone app/pharmacycool/NB_list-Info.plist8682611744#615"    cd "/Users/mac/Documents/iphone app/pharmacycool"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility NB_list-Info.plist -genpkginfo "/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app/PkgInfo" -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile "/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app/ResourceRules.plist" -o "/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app/Info.plist"0#
+
+CProcessPCH /var/folders/vS/vSmq6ZgJH8eigCFVs-21z++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NB_list_Prefix-bwmvizzibfwijabasmyftzlbjwpz/NB_list_Prefix.pch.gch NB_list_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s339656961.966756
+e339656967.469417
+r1
+xProcessPCH
+x/var/folders/vS/vSmq6ZgJH8eigCFVs-21z++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NB_list_Prefix-bwmvizzibfwijabasmyftzlbjwpz/NB_list_Prefix.pch.gch
+xNB_list_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile NB_list_Prefix.pch339656961#339656967#0(0"0(0#0#63"/Users/mac/Documents/iphone app/pharmacycool/NB_list_Prefix.pch8687377248#1782"    cd "/Users/mac/Documents/iphone app/pharmacycool"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote "/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-generated-files.hmap" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-own-target-headers.hmap" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-all-target-headers.hmap" -iquote "/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-project-headers.hmap" "-F/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos" "-I/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/include" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/DerivedSources/armv6" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -c "/Users/mac/Documents/iphone app/pharmacycool/NB_list_Prefix.pch" -o /var/folders/vS/vSmq6ZgJH8eigCFVs-21z++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NB_list_Prefix-bwmvizzibfwijabasmyftzlbjwpz/NB_list_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/vS/vSmq6ZgJH8eigCFVs-21z++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NB_list_Prefix-bydyimitevgjhnenshktltuegrji/NB_list_Prefix.pch.gch NB_list_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s339656967.469665
+e339656971.341451
+r1
+xProcessPCH
+x/var/folders/vS/vSmq6ZgJH8eigCFVs-21z++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NB_list_Prefix-bydyimitevgjhnenshktltuegrji/NB_list_Prefix.pch.gch
+xNB_list_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile NB_list_Prefix.pch339656967#339656971#0(0"0(0#0#63"/Users/mac/Documents/iphone app/pharmacycool/NB_list_Prefix.pch8682854912#1782"    cd "/Users/mac/Documents/iphone app/pharmacycool"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1 -iquote "/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-generated-files.hmap" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-own-target-headers.hmap" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-all-target-headers.hmap" -iquote "/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list-project-headers.hmap" "-F/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos" "-I/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/include" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/DerivedSources/armv7" "-I/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/DerivedSources" -DNS_BLOCK_ASSERTIONS=1 -c "/Users/mac/Documents/iphone app/pharmacycool/NB_list_Prefix.pch" -o /var/folders/vS/vSmq6ZgJH8eigCFVs-21z++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NB_list_Prefix-bydyimitevgjhnenshktltuegrji/NB_list_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/vS/vSmq6ZgJH8eigCFVs-21z++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NB_list_Prefix-dyepdkavjkxjkccfizabrwllrflu/NB_list_Prefix.pch.gch NB_list_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/vS/vSmq6ZgJH8eigCFVs-21z++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NB_list_Prefix-fcbswtufqeqemaforatcwqiyqnod/NB_list_Prefix.pch.gch NB_list_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessProductPackaging "/Users/mac/Documents/iphone app/pharmacycool/Entitlements.plist" "/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list.xcent"
+s339656979.535032
+e339656979.537022
+r1
+xProcessProductPackaging
+x/Users/mac/Documents/iphone app/pharmacycool/Entitlements.plist
+x/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list.xcent
+lSLF07#2@112"ProcessProductPackaging Entitlements.plist build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list.xcent339656979#339656979#0(0"0(0#0#114"/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list.xcent8623463072#432"    cd "/Users/mac/Documents/iphone app/pharmacycool"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/mac/Documents/iphone app/pharmacycool/Entitlements.plist" -entitlements -format xml -o "/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list.xcent"0#
+
+CProcessProductPackaging "/Users/mac/Library/MobileDevice/Provisioning Profiles/1322695B-6EEB-4345-A538-B014F72C74E5.mobileprovision" "/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app/embedded.mobileprovision"
+s339656979.444088
+e339656979.460697
+r1
+xProcessProductPackaging
+x/Users/mac/Library/MobileDevice/Provisioning Profiles/1322695B-6EEB-4345-A538-B014F72C74E5.mobileprovision
+x/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app/embedded.mobileprovision
+lSLF07#2@197"ProcessProductPackaging "/Users/mac/Library/MobileDevice/Provisioning Profiles/1322695B-6EEB-4345-A538-B014F72C74E5.mobileprovision" build/Distribution-iphoneos/NB_list.app/embedded.mobileprovision339656979#339656979#0(0"0(0#0#109"/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app/embedded.mobileprovision8682960704#444"    cd "/Users/mac/Documents/iphone app/pharmacycool"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/mac/Library/MobileDevice/Provisioning Profiles/1322695B-6EEB-4345-A538-B014F72C74E5.mobileprovision" -o "/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app/embedded.mobileprovision"0#
+
+CProcessProductPackaging "/Users/mac/Library/MobileDevice/Provisioning Profiles/1BE44359-0C6C-41BA-9396-A2A2B91EFC82.mobileprovision" "/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app/embedded.mobileprovision"
+r0
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist "/Users/mac/Documents/iphone app/pharmacycool/build/NB_list.build/Distribution-iphoneos/NB_list.build/NB_list.xcent"
+r0
+
+CTouch "/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app"
+s339656979.460790
+e339656979.534912
+r1
+xTouch
+x/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app
+lSLF07#2@90"Touch /Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app339656979#339656979#0(0"0(0#0#0"8655013216#287"    cd "/Users/mac/Documents/iphone app/pharmacycool"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app"0#
+
+CValidate "/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app"
+s339656988.365895
+e339656990.641080
+r1
+xValidate
+x/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app
+lSLF07#2@48"Validate build/Distribution-iphoneos/NB_list.app339656988#339656990#0(0"0(0#0#84"/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app8687064192#396"    cd "/Users/mac/Documents/iphone app/pharmacycool"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation "/Users/mac/Documents/iphone app/pharmacycool/build/Distribution-iphoneos/NB_list.app"0#
+

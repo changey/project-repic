@@ -1,0 +1,312 @@
+TNB_list
+v7
+r0
+t339639302.222481
+cCheck dependencies
+cProcessInfoPlistFile "/Users/mac/Documents/iphone app/NB_list/build/Debug-iphonesimulator/NB_list.app/Info.plist" NB_list-Info.plist
+cCompileXIB "/Users/mac/Documents/iphone app/NB_list/MainWindow.xib"
+cCompileXIB "/Users/mac/Documents/iphone app/NB_list/RootViewController.xib"
+cCompileXIB "/Users/mac/Documents/iphone app/NB_list/Classes/View2ViewController.xib"
+cProcessPCH /var/folders/vS/vSmq6ZgJH8eigCFVs-21z++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NB_list_Prefix-clajyiedzvjtxkhgqseyelzzsyed/NB_list_Prefix.pch.gch NB_list_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NB_list.build/Debug-iphonesimulator/NB_list.build/Objects-normal/i386/main.o "/Users/mac/Documents/iphone app/NB_list/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NB_list.build/Debug-iphonesimulator/NB_list.build/Objects-normal/i386/NB_listAppDelegate.o "/Users/mac/Documents/iphone app/NB_list/Classes/NB_listAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NB_list.build/Debug-iphonesimulator/NB_list.build/Objects-normal/i386/RootViewController.o "/Users/mac/Documents/iphone app/NB_list/Classes/RootViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/NB_list.build/Debug-iphonesimulator/NB_list.build/Objects-normal/i386/View2ViewController.o "/Users/mac/Documents/iphone app/NB_list/Classes/View2ViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+c000000004D5C9B4E0000000000000110
+t1297914702
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54CFFA00000000002999B0
+t1297403898
+s2726320
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54CFE5000000000029DA70
+t1297403877
+s2742896
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54CFB80000000000001466
+t1297403832
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5615B40000000000000AA1
+t1297487284
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5616030000000000766870
+t1297487363
+s7759984
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/Availability.h
+c000000004D4F7A2B0000000000001B19
+t1297054251
+s6937
+
+N/Users/mac/Documents/iphone app/NB_list/Classes/NB_listAppDelegate.h
+c000000004E8E431500000000000001CA
+t1317946133
+s458
+i<UIKit/UIKit.h>
+
+N/Users/mac/Documents/iphone app/NB_list/Classes/NB_listAppDelegate.m
+c000000004E8E43150000000000000AB6
+t1317946133
+s2742
+i"NB_listAppDelegate.h"
+i"RootViewController.h"
+
+N/Users/mac/Documents/iphone app/NB_list/Classes/RootViewController.h
+c000000004E8E43C5000000000000015B
+t1317946309
+s347
+i<UIKiT/UIKit.h>
+i"View2ViewController.h"
+
+N/Users/mac/Documents/iphone app/NB_list/Classes/RootViewController.m
+c000000004E8E4434000000000000110A
+t1317946420
+s4362
+i"RootViewController.h"
+
+N/Users/mac/Documents/iphone app/NB_list/Classes/View2ViewController.h
+c000000004E8E436B00000000000000E1
+t1317946219
+s225
+i<UIKit/UIKit.h>
+
+N/Users/mac/Documents/iphone app/NB_list/Classes/View2ViewController.m
+c000000004E8E436B00000000000005A6
+t1317946219
+s1446
+i"View2ViewController.h"
+
+N/Users/mac/Documents/iphone app/NB_list/Classes/View2ViewController.xib
+c000000004E8E439C0000000000004302
+t1317946268
+s17154
+
+N/Users/mac/Documents/iphone app/NB_list/MainWindow.xib
+c000000004E8E43160000000000005FF4
+t1317946134
+s24564
+
+N/Users/mac/Documents/iphone app/NB_list/NB_list_Prefix.pch
+c000000004E8E43160000000000000140
+t1317946134
+s320
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/mac/Documents/iphone app/NB_list/RootViewController.xib
+c000000004E8E43160000000000004452
+t1317946134
+s17490
+
+N/Users/mac/Documents/iphone app/NB_list/build/Debug-iphonesimulator/NB_list.app
+t2
+s0
+
+N/Users/mac/Documents/iphone app/NB_list/build/Debug-iphonesimulator/NB_list.app.dSYM
+t2
+s0
+
+N/Users/mac/Documents/iphone app/NB_list/build/Debug-iphonesimulator/NB_list.app/Info.plist
+t1317946484
+s591
+
+N/Users/mac/Documents/iphone app/NB_list/build/Debug-iphonesimulator/NB_list.app/MainWindow.nib
+t1317946494
+s2456
+
+N/Users/mac/Documents/iphone app/NB_list/build/Debug-iphonesimulator/NB_list.app/NB_list
+t2
+s0
+
+N/Users/mac/Documents/iphone app/NB_list/build/Debug-iphonesimulator/NB_list.app/PkgInfo
+t1317946484
+s8
+
+N/Users/mac/Documents/iphone app/NB_list/build/Debug-iphonesimulator/NB_list.app/RootViewController.nib
+t1317946494
+s1518
+
+N/Users/mac/Documents/iphone app/NB_list/build/Debug-iphonesimulator/NB_list.app/View2ViewController.nib
+t1317946496
+s1994
+
+N/Users/mac/Documents/iphone app/NB_list/build/NB_list.build/Debug-iphonesimulator/NB_list.build/Objects-normal/i386/NB_list.LinkFileList
+c000000004E8E44740000000000000217
+t1317946484
+s535
+
+N/Users/mac/Documents/iphone app/NB_list/build/NB_list.build/Debug-iphonesimulator/NB_list.build/Objects-normal/i386/NB_listAppDelegate.o
+t1317946502
+s53024
+
+N/Users/mac/Documents/iphone app/NB_list/build/NB_list.build/Debug-iphonesimulator/NB_list.build/Objects-normal/i386/RootViewController.o
+t2
+s0
+
+N/Users/mac/Documents/iphone app/NB_list/build/NB_list.build/Debug-iphonesimulator/NB_list.build/Objects-normal/i386/View2ViewController.o
+t1317946502
+s38108
+
+N/Users/mac/Documents/iphone app/NB_list/build/NB_list.build/Debug-iphonesimulator/NB_list.build/Objects-normal/i386/main.o
+t1317946501
+s6312
+
+N/Users/mac/Documents/iphone app/NB_list/main.m
+c000000004E8E43160000000000000160
+t1317946134
+s352
+i<UIKit/UIKit.h>
+
+N/var/folders/vS/vSmq6ZgJH8eigCFVs-21z++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NB_list_Prefix-clajyiedzvjtxkhgqseyelzzsyed/NB_list_Prefix.pch.gch
+t1317946501
+s15814064
+
+NNB_list-Info.plist
+c000000004E8E4316000000000000038D
+t1317946134
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies339639284#339639284#0(0"0(0#1#0"8620889152#0"0#
+
+CCompileC build/NB_list.build/Debug-iphonesimulator/NB_list.build/Objects-normal/i386/NB_listAppDelegate.o "/Users/mac/Documents/iphone app/NB_list/Classes/NB_listAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s339639301.959049
+e339639302.059301
+r1
+xCompileC
+xbuild/NB_list.build/Debug-iphonesimulator/NB_list.build/Objects-normal/i386/NB_listAppDelegate.o
+x/Users/mac/Documents/iphone app/NB_list/Classes/NB_listAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/mac/Documents/iphone app/NB_list/Classes/NB_listAppDelegate.m339639301#339639302#0(0"0(0#0#68"/Users/mac/Documents/iphone app/NB_list/Classes/NB_listAppDelegate.m8622124512#1983"    cd "/Users/mac/Documents/iphone app/NB_list"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/mac/Documents/iphone app/NB_list/build/NB_list.build/Debug-iphonesimulator/NB_list.build/NB_list-generated-files.hmap" "-I/Users/mac/Documents/iphone app/NB_list/build/NB_list.build/Debug-iphonesimulator/NB_list.build/NB_list-own-target-headers.hmap" "-I/Users/mac/Documents/iphone app/NB_list/build/NB_list.build/Debug-iphonesimulator/NB_list.build/NB_list-all-target-headers.hmap" -iquote "/Users/mac/Documents/iphone app/NB_list/build/NB_list.build/Debug-iphonesimulator/NB_list.build/NB_list-project-headers.hmap" "-F/Users/mac/Documents/iphone app/NB_list/build/Debug-iphonesimulator" "-I/Users/mac/Documents/iphone app/NB_list/build/Debug-iphonesimulator/include" "-I/Users/mac/Documents/iphone app/NB_list/build/NB_list.build/Debug-iphonesimulator/NB_list.build/DerivedSources/i386" "-I/Users/mac/Documents/iphone app/NB_list/build/NB_list.build/Debug-iphonesimulator/NB_list.build/DerivedSources" -include /var/folders/vS/vSmq6ZgJH8eigCFVs-21z++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NB_list_Prefix-clajyiedzvjtxkhgqseyelzzsyed/NB_list_Prefix.pch -c "/Users/mac/Documents/iphone app/NB_list/Classes/NB_listAppDelegate.m" -o "/Users/mac/Documents/iphone app/NB_list/build/NB_list.build/Debug-iphonesimulator/NB_list.build/Objects-normal/i386/NB_listAppDelegate.o"0#
+
+CCompileC build/NB_list.build/Debug-iphonesimulator/NB_list.build/Objects-normal/i386/RootViewController.o "/Users/mac/Documents/iphone app/NB_list/Classes/RootViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s339639302.059423
+e339639302.123898
+r0
+xCompileC
+xbuild/NB_list.build/Debug-iphonesimulator/NB_list.build/Objects-normal/i386/RootViewController.o
+x/Users/mac/Documents/iphone app/NB_list/Classes/RootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/mac/Documents/iphone app/NB_list/Classes/RootViewController.m: In function '-[RootViewController tableView:didSelectRowAtIndexPath:]':
+o/Users/mac/Documents/iphone app/NB_list/Classes/RootViewController.m:135: error: 'AnotherViewController' undeclared (first use in this function)
+o/Users/mac/Documents/iphone app/NB_list/Classes/RootViewController.m:135: error: (Each undeclared identifier is reported only once
+o/Users/mac/Documents/iphone app/NB_list/Classes/RootViewController.m:135: error: for each function it appears in.)
+o{standard input}:128:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000001$pb"
+o{standard input}:128:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:120:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000001$pb"
+o{standard input}:120:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression
+o{standard input}:112:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"
+o{standard input}:112:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:109:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_0" minus "L00000000001$pb"
+o{standard input}:109:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_0" can't be undefined in a subtraction expression
+o{standard input}:98:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"
+o{standard input}:98:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_0
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3
+lSLF07#2@76"Compile /Users/mac/Documents/iphone app/NB_list/Classes/RootViewController.m339639302#339639302#0(2040"/Users/mac/Documents/iphone app/NB_list/Classes/RootViewController.m: In function '-[RootViewController tableView:didSelectRowAtIndexPath:]':/Users/mac/Documents/iphone app/NB_list/Classes/RootViewController.m:135: error: 'AnotherViewController' undeclared (first use in this function)/Users/mac/Documents/iphone app/NB_list/Classes/RootViewController.m:135: error: (Each undeclared identifier is reported only once/Users/mac/Documents/iphone app/NB_list/Classes/RootViewController.m:135: error: for each function it appears in.){standard input}:128:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000001$pb"{standard input}:128:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:120:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000001$pb"{standard input}:120:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:112:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"{standard input}:112:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:109:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_0" minus "L00000000001$pb"{standard input}:109:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_0" can't be undefined in a subtraction expression{standard input}:98:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"{standard input}:98:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_0{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_31(4@63"'AnotherViewController' undeclared (first use in this function)339639302#142#145#0(6@68"/Users/mac/Documents/iphone app/NB_list/Classes/RootViewController.m339639220#135#0#135#0#43"'*' undeclared (first use in this function)0(0#0#68"/Users/mac/Documents/iphone app/NB_list/Classes/RootViewController.m8621216128#1983"    cd "/Users/mac/Documents/iphone app/NB_list"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/mac/Documents/iphone app/NB_list/build/NB_list.build/Debug-iphonesimulator/NB_list.build/NB_list-generated-files.hmap" "-I/Users/mac/Documents/iphone app/NB_list/build/NB_list.build/Debug-iphonesimulator/NB_list.build/NB_list-own-target-headers.hmap" "-I/Users/mac/Documents/iphone app/NB_list/build/NB_list.build/Debug-iphonesimulator/NB_list.build/NB_list-all-target-headers.hmap" -iquote "/Users/mac/Documents/iphone app/NB_list/build/NB_list.build/Debug-iphonesimulator/NB_list.build/NB_list-project-headers.hmap" "-F/Users/mac/Documents/iphone app/NB_list/build/Debug-iphonesimulator" "-I/Users/mac/Documents/iphone app/NB_list/build/Debug-iphonesimulator/include" "-I/Users/mac/Documents/iphone app/NB_list/build/NB_list.build/Debug-iphonesimulator/NB_list.build/DerivedSources/i386" "-I/Users/mac/Documents/iphone app/NB_list/build/NB_list.build/Debug-iphonesimulator/NB_list.build/DerivedSources" -include /var/folders/vS/vSmq6ZgJH8eigCFVs-21z++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NB_list_Prefix-clajyiedzvjtxkhgqseyelzzsyed/NB_list_Prefix.pch -c "/Users/mac/Documents/iphone app/NB_list/Classes/RootViewController.m" -o "/Users/mac/Documents/iphone app/NB_list/build/NB_list.build/Debug-iphonesimulator/NB_list.build/Objects-normal/i386/RootViewController.o"1#
+
+CCompileC build/NB_list.build/Debug-iphonesimulator/NB_list.build/Objects-normal/i386/View2ViewController.o "/Users/mac/Documents/iphone app/NB_list/Classes/View2ViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s339639302.124085
+e339639302.222371
+r1
+xCompileC
+xbuild/NB_list.build/Debug-iphonesimulator/NB_list.build/Objects-normal/i386/View2ViewController.o
+x/Users/mac/Documents/iphone app/NB_list/Classes/View2ViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/mac/Documents/iphone app/NB_list/Classes/View2ViewController.m339639302#339639302#0(0"0(0#0#69"/Users/mac/Documents/iphone app/NB_list/Classes/View2ViewController.m8620494816#1985"    cd "/Users/mac/Documents/iphone app/NB_list"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/mac/Documents/iphone app/NB_list/build/NB_list.build/Debug-iphonesimulator/NB_list.build/NB_list-generated-files.hmap" "-I/Users/mac/Documents/iphone app/NB_list/build/NB_list.build/Debug-iphonesimulator/NB_list.build/NB_list-own-target-headers.hmap" "-I/Users/mac/Documents/iphone app/NB_list/build/NB_list.build/Debug-iphonesimulator/NB_list.build/NB_list-all-target-headers.hmap" -iquote "/Users/mac/Documents/iphone app/NB_list/build/NB_list.build/Debug-iphonesimulator/NB_list.build/NB_list-project-headers.hmap" "-F/Users/mac/Documents/iphone app/NB_list/build/Debug-iphonesimulator" "-I/Users/mac/Documents/iphone app/NB_list/build/Debug-iphonesimulator/include" "-I/Users/mac/Documents/iphone app/NB_list/build/NB_list.build/Debug-iphonesimulator/NB_list.build/DerivedSources/i386" "-I/Users/mac/Documents/iphone app/NB_list/build/NB_list.build/Debug-iphonesimulator/NB_list.build/DerivedSources" -include /var/folders/vS/vSmq6ZgJH8eigCFVs-21z++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NB_list_Prefix-clajyiedzvjtxkhgqseyelzzsyed/NB_list_Prefix.pch -c "/Users/mac/Documents/iphone app/NB_list/Classes/View2ViewController.m" -o "/Users/mac/Documents/iphone app/NB_list/build/NB_list.build/Debug-iphonesimulator/NB_list.build/Objects-normal/i386/View2ViewController.o"0#
+
+CCompileC build/NB_list.build/Debug-iphonesimulator/NB_list.build/Objects-normal/i386/main.o "/Users/mac/Documents/iphone app/NB_list/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
+s339639301.688089
+e339639301.958932
+r1
+xCompileC
+xbuild/NB_list.build/Debug-iphonesimulator/NB_list.build/Objects-normal/i386/main.o
+x/Users/mac/Documents/iphone app/NB_list/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/mac/Documents/iphone app/NB_list/main.m339639301#339639301#0(0"0(0#0#46"/Users/mac/Documents/iphone app/NB_list/main.m8623074816#1947"    cd "/Users/mac/Documents/iphone app/NB_list"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/mac/Documents/iphone app/NB_list/build/NB_list.build/Debug-iphonesimulator/NB_list.build/NB_list-generated-files.hmap" "-I/Users/mac/Documents/iphone app/NB_list/build/NB_list.build/Debug-iphonesimulator/NB_list.build/NB_list-own-target-headers.hmap" "-I/Users/mac/Documents/iphone app/NB_list/build/NB_list.build/Debug-iphonesimulator/NB_list.build/NB_list-all-target-headers.hmap" -iquote "/Users/mac/Documents/iphone app/NB_list/build/NB_list.build/Debug-iphonesimulator/NB_list.build/NB_list-project-headers.hmap" "-F/Users/mac/Documents/iphone app/NB_list/build/Debug-iphonesimulator" "-I/Users/mac/Documents/iphone app/NB_list/build/Debug-iphonesimulator/include" "-I/Users/mac/Documents/iphone app/NB_list/build/NB_list.build/Debug-iphonesimulator/NB_list.build/DerivedSources/i386" "-I/Users/mac/Documents/iphone app/NB_list/build/NB_list.build/Debug-iphonesimulator/NB_list.build/DerivedSources" -include /var/folders/vS/vSmq6ZgJH8eigCFVs-21z++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NB_list_Prefix-clajyiedzvjtxkhgqseyelzzsyed/NB_list_Prefix.pch -c "/Users/mac/Documents/iphone app/NB_list/main.m" -o "/Users/mac/Documents/iphone app/NB_list/build/NB_list.build/Debug-iphonesimulator/NB_list.build/Objects-normal/i386/main.o"0#
+
+CCompileXIB "/Users/mac/Documents/iphone app/NB_list/Classes/View2ViewController.xib"
+s339639294.752692
+e339639296.364772
+r1
+xCompileXIB
+x/Users/mac/Documents/iphone app/NB_list/Classes/View2ViewController.xib
+o2011-10-06 20:14:56.170 Interface Builder Cocoa Touch Tool[1579:1803] CFPreferences: user home directory at file://localhost/Users/mac/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF07#2@42"CompileXIB Classes/View2ViewController.xib339639294#339639296#0(237"2011-10-06 20:14:56.170 Interface Builder Cocoa Touch Tool[1579:1803] CFPreferences: user home directory at file://localhost/Users/mac/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.0(0#0#71"/Users/mac/Documents/iphone app/NB_list/Classes/View2ViewController.xib8622412160#605"    cd "/Users/mac/Documents/iphone app/NB_list"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/mac/Documents/iphone app/NB_list/build/Debug-iphonesimulator/NB_list.app/View2ViewController.nib" "/Users/mac/Documents/iphone app/NB_list/Classes/View2ViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB "/Users/mac/Documents/iphone app/NB_list/MainWindow.xib"
+s339639284.599566
+e339639294.752531
+r1
+xCompileXIB
+x/Users/mac/Documents/iphone app/NB_list/MainWindow.xib
+o2011-10-06 20:14:53.778 Interface Builder Cocoa Touch Tool[1576:1803] CFPreferences: user home directory at file://localhost/Users/mac/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF07#2@25"CompileXIB MainWindow.xib339639284#339639294#0(237"2011-10-06 20:14:53.778 Interface Builder Cocoa Touch Tool[1576:1803] CFPreferences: user home directory at file://localhost/Users/mac/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.0(0#0#54"/Users/mac/Documents/iphone app/NB_list/MainWindow.xib8620466976#579"    cd "/Users/mac/Documents/iphone app/NB_list"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/mac/Documents/iphone app/NB_list/build/Debug-iphonesimulator/NB_list.app/MainWindow.nib" "/Users/mac/Documents/iphone app/NB_list/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CCompileXIB "/Users/mac/Documents/iphone app/NB_list/RootViewController.xib"
+s339639284.632962
+e339639294.929251
+r1
+xCompileXIB
+x/Users/mac/Documents/iphone app/NB_list/RootViewController.xib
+o2011-10-06 20:14:53.717 Interface Builder Cocoa Touch Tool[1577:1803] CFPreferences: user home directory at file://localhost/Users/mac/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF07#2@33"CompileXIB RootViewController.xib339639284#339639294#0(237"2011-10-06 20:14:53.717 Interface Builder Cocoa Touch Tool[1577:1803] CFPreferences: user home directory at file://localhost/Users/mac/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.0(0#0#62"/Users/mac/Documents/iphone app/NB_list/RootViewController.xib8620425088#595"    cd "/Users/mac/Documents/iphone app/NB_list"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/mac/Documents/iphone app/NB_list/build/Debug-iphonesimulator/NB_list.app/RootViewController.nib" "/Users/mac/Documents/iphone app/NB_list/RootViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
+
+CGenerateDSYMFile "/Users/mac/Documents/iphone app/NB_list/build/Debug-iphonesimulator/NB_list.app.dSYM" "/Users/mac/Documents/iphone app/NB_list/build/Debug-iphonesimulator/NB_list.app/NB_list"
+r0
+
+CLd "/Users/mac/Documents/iphone app/NB_list/build/Debug-iphonesimulator/NB_list.app/NB_list" normal i386
+r0
+
+CProcessInfoPlistFile "/Users/mac/Documents/iphone app/NB_list/build/Debug-iphonesimulator/NB_list.app/Info.plist" NB_list-Info.plist
+s339639284.519145
+e339639284.599462
+r1
+xProcessInfoPlistFile
+x/Users/mac/Documents/iphone app/NB_list/build/Debug-iphonesimulator/NB_list.app/Info.plist
+xNB_list-Info.plist
+lSLF07#2@26"Process NB_list-Info.plist339639284#339639284#0(0"0(0#0#58"/Users/mac/Documents/iphone app/NB_list/NB_list-Info.plist8621989120#488"    cd "/Users/mac/Documents/iphone app/NB_list"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility NB_list-Info.plist -genpkginfo "/Users/mac/Documents/iphone app/NB_list/build/Debug-iphonesimulator/NB_list.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/mac/Documents/iphone app/NB_list/build/Debug-iphonesimulator/NB_list.app/Info.plist"0#
+
+CProcessPCH /var/folders/vS/vSmq6ZgJH8eigCFVs-21z++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NB_list_Prefix-clajyiedzvjtxkhgqseyelzzsyed/NB_list_Prefix.pch.gch NB_list_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s339639296.365031
+e339639301.687847
+r1
+xProcessPCH
+x/var/folders/vS/vSmq6ZgJH8eigCFVs-21z++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NB_list_Prefix-clajyiedzvjtxkhgqseyelzzsyed/NB_list_Prefix.pch.gch
+xNB_list_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile NB_list_Prefix.pch339639296#339639301#0(0"0(0#0#58"/Users/mac/Documents/iphone app/NB_list/NB_list_Prefix.pch8621723488#1836"    cd "/Users/mac/Documents/iphone app/NB_list"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/mac/Documents/iphone app/NB_list/build/NB_list.build/Debug-iphonesimulator/NB_list.build/NB_list-generated-files.hmap" "-I/Users/mac/Documents/iphone app/NB_list/build/NB_list.build/Debug-iphonesimulator/NB_list.build/NB_list-own-target-headers.hmap" "-I/Users/mac/Documents/iphone app/NB_list/build/NB_list.build/Debug-iphonesimulator/NB_list.build/NB_list-all-target-headers.hmap" -iquote "/Users/mac/Documents/iphone app/NB_list/build/NB_list.build/Debug-iphonesimulator/NB_list.build/NB_list-project-headers.hmap" "-F/Users/mac/Documents/iphone app/NB_list/build/Debug-iphonesimulator" "-I/Users/mac/Documents/iphone app/NB_list/build/Debug-iphonesimulator/include" "-I/Users/mac/Documents/iphone app/NB_list/build/NB_list.build/Debug-iphonesimulator/NB_list.build/DerivedSources/i386" "-I/Users/mac/Documents/iphone app/NB_list/build/NB_list.build/Debug-iphonesimulator/NB_list.build/DerivedSources" -c "/Users/mac/Documents/iphone app/NB_list/NB_list_Prefix.pch" -o /var/folders/vS/vSmq6ZgJH8eigCFVs-21z++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/NB_list_Prefix-clajyiedzvjtxkhgqseyelzzsyed/NB_list_Prefix.pch.gch0#
+
+CTouch "/Users/mac/Documents/iphone app/NB_list/build/Debug-iphonesimulator/NB_list.app"
+r0
+
