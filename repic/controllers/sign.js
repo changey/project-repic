@@ -49,7 +49,7 @@ exports.signup = function(req, res) {
             message: 'inserted user successfully'
           })
         }
-        // 发送激活邮件
+        // send activation email
         // mail.sendActiveMail(email, utility.md5(email + passhash + config.session_secret), loginname);
         // res.render('sign/signup', {
         //   success: '歡迎加入 ' + config.name + ' 華航哩程數、長榮哩程數‧拍賣交換！'
