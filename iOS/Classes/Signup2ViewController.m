@@ -75,13 +75,7 @@
      user3.pass=@"e1Z1iScMqHEogItD";
      
      if(self.viewphy == nil) {
-     PhysiciansViewController *secondxib =
-     [[PhysiciansViewController alloc] initWithNibName:@"PhysiciansViewController" bundle:[NSBundle mainBundle]];
-     self.viewphy = secondxib;
-     [secondxib release];
-     }
-     
-     [self.navigationController pushViewController:self.viewphy animated:YES];*/
+     */
     //}
     
 }
