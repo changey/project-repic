@@ -200,27 +200,31 @@
         NSLog(@"%@",returnString);
     }
     
-//    if ([returnString isEqualToString:@"1"]){
-//        NSLog(@"%@", user2);
-//        user3.user=user2;
-//        // [[UAUser defaultUser] setAlias:@"changey"];
-//        [[UAPush shared] setAlias:user2];
-// 
-//        if(self.viewmenu == nil) {
-//            MenuViewController *secondxib =
-//            [[MenuViewController alloc] initWithNibName:@"MenuViewController" bundle:[NSBundle mainBundle]];
-//            self.viewmenu = secondxib;
-//            [secondxib release];
-//        }
-//        
-//        [self.navigationController pushViewController:self.viewmenu animated:YES];
-//    }
-//    else{
-//        UIAlertView *alertsuccess = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Username/Password invalid"
-//                                                              delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
-//        [alertsuccess show];
-//        [alertsuccess release];
-//    }
+    NSDictionary *json = [returnString JSONValue];
+    int loggedIn = [[json objectForKey:@"loggedIn"] intValue];
+
+    if (loggedIn == 1){
+        NSLog(@"%@", user2);
+        user3.user=user2;
+        // [[UAUser defaultUser] setAlias:@"changey"];
+        //[[UAPush shared] setAlias:user2];
+
+        NSLog(@"here");
+        if(self.viewmenu == nil) {
+            MenuViewController *secondxib =
+            [[MenuViewController alloc] initWithNibName:@"MenuViewController" bundle:[NSBundle mainBundle]];
+            self.viewmenu = secondxib;
+            [secondxib release];
+        }
+        
+        [self.navigationController pushViewController:self.viewmenu animated:YES];
+    }
+    else{
+        UIAlertView *alertsuccess = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Username/Password invalid"
+                                                              delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+        [alertsuccess show];
+        [alertsuccess release];
+    }
     
 
 }
