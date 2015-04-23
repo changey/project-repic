@@ -188,7 +188,7 @@
     
 //    NSString *url = [NSString stringWithFormat:@"%@/signup?user=%@&pass=%@",user3.url,user2,pass2];
     
-    NSString *url = [NSString stringWithFormat:@"%@/signup?", user3.url];  // server name does not match
+    NSString *url = [NSString stringWithFormat:@"%@/login?loginname=%@&pass=%@", user3.url, user2, pass2];  // server name does not match
     NSURL *URL = [NSURL URLWithString:url];
     
     ASIHTTPRequest *request = [ASIHTTPRequest requestWithURL:URL];

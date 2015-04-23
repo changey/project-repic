@@ -61,8 +61,16 @@ exports.signup = function(req, res) {
 };
 
 exports.login = function (req, res) {
-  var loginname = "foo";
-  var pass = "124";
+
+  // http://localhost:9701/login?loginname=foo&pass=123
+  var url_parts = url.parse(req.url, true);
+  var query = url_parts.query;
+
+  var loginname = query.loginname;
+  var pass = query.pass;
+
+  // var loginname = "foo";
+  // var pass = "124";
   var ep = new eventproxy();
 
   if (!loginname || !pass) {
@@ -71,7 +79,7 @@ exports.login = function (req, res) {
       loggedIn: 0,
       message: 'information not completed'
     })
-  }
+  } else {
 
   var getUser = User.getUserByLoginName;
 
@@ -107,4 +115,5 @@ exports.login = function (req, res) {
       })
     }));
   });
+  }
 };
