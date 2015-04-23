@@ -186,7 +186,9 @@
     
     [pass resignFirstResponder];
     
-    NSString *url = [NSString stringWithFormat:@"%@/startup/rnlogin2.php?user=%@&pass=%@",user3.url,user2,pass2];  // server name does not match
+//    NSString *url = [NSString stringWithFormat:@"%@/signup?user=%@&pass=%@",user3.url,user2,pass2];
+    
+    NSString *url = [NSString stringWithFormat:@"%@/signup?", user3.url];  // server name does not match
     NSURL *URL = [NSURL URLWithString:url];
     
     ASIHTTPRequest *request = [ASIHTTPRequest requestWithURL:URL];
@@ -198,27 +200,27 @@
         NSLog(@"%@",returnString);
     }
     
-    if ([returnString isEqualToString:@"1"]){
-        NSLog(@"%@", user2);
-        user3.user=user2;
-        // [[UAUser defaultUser] setAlias:@"changey"];
-        [[UAPush shared] setAlias:user2];
- 
-        if(self.viewmenu == nil) {
-            MenuViewController *secondxib =
-            [[MenuViewController alloc] initWithNibName:@"MenuViewController" bundle:[NSBundle mainBundle]];
-            self.viewmenu = secondxib;
-            [secondxib release];
-        }
-        
-        [self.navigationController pushViewController:self.viewmenu animated:YES];
-    }
-    else{
-        UIAlertView *alertsuccess = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Username/Password invalid"
-                                                              delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
-        [alertsuccess show];
-        [alertsuccess release];
-    }
+//    if ([returnString isEqualToString:@"1"]){
+//        NSLog(@"%@", user2);
+//        user3.user=user2;
+//        // [[UAUser defaultUser] setAlias:@"changey"];
+//        [[UAPush shared] setAlias:user2];
+// 
+//        if(self.viewmenu == nil) {
+//            MenuViewController *secondxib =
+//            [[MenuViewController alloc] initWithNibName:@"MenuViewController" bundle:[NSBundle mainBundle]];
+//            self.viewmenu = secondxib;
+//            [secondxib release];
+//        }
+//        
+//        [self.navigationController pushViewController:self.viewmenu animated:YES];
+//    }
+//    else{
+//        UIAlertView *alertsuccess = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Username/Password invalid"
+//                                                              delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+//        [alertsuccess show];
+//        [alertsuccess release];
+//    }
     
 
 }
@@ -237,7 +239,8 @@
     user2.inbox=@"4";
     
     //user2.url=@"http://172.17.164.70";
-    user2.url=@"http://107.22.99.26";
+    //user2.url=@"http://107.22.99.26";
+    user2.url=@"http://localhost:9701";
     
     user.text=@"";
     pass.text=@"";
