@@ -62,7 +62,8 @@ exports.signup = function(req, res) {
 
 exports.login = function (req, res) {
   var loginname = "foo";
-  var pass = "123";
+  var pass = "124";
+  var ep = new eventproxy();
 
   if (!loginname || !pass) {
     res.status(422);
@@ -71,4 +72,39 @@ exports.login = function (req, res) {
       message: 'information not completed'
     })
   }
+
+  var getUser = User.getUserByLoginName;
+
+  getUser(loginname, function (err, user) {
+    if (err) {
+      return next(err);
+    }
+    if (!user) {
+      res.send({
+        loggedIn: 0,
+        message: 'login error'
+      })
+    }
+    var passhash = user.pass;
+    tools.bcompare(pass, passhash, ep.done(function (bool) {
+      if (!bool) {
+        res.send({
+          loggedIn: 0,
+          message: 'login error'
+        })
+      }
+    //  if (!user.active) {
+    //    // resend activation email
+    //    mail.sendActiveMail(user.email, utility.md5(user.email + passhash + config.session_secret), user.loginname);
+    //    res.status(403);
+    //    return res.render('sign/signin', { error: 'the email is not verified yet' });
+    //  }
+      // store session cookie
+
+      //check at some page just jump to home page
+      res.send({
+        loggedIn: 1
+      })
+    }));
+  });
 };
