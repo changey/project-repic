@@ -1,10 +1,11 @@
+var fs = require("fs");
 var express = require('express');
 var app = express();
 var sign = require('./controllers/sign.js');
 var webRouter = require('./web_router');
 
-app.get('/', function (req, res) {
-  res.send('Hello World!');
+app.get("/", function(req, res) {
+  fs.createReadStream("./index.html").pipe(res);
 });
 
 app.use('/', webRouter);
