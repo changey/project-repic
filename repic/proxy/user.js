@@ -15,3 +15,7 @@ exports.newAndSave = function(name, loginname, pass, email, avatar_url, active, 
 exports.getUsersByQuery = function (query, opt, callback) {
   User.find(query, '', opt, callback);
 };
+
+exports.getUserByLoginName = function (loginName, callback) {
+  User.findOne({'loginname': loginName}, callback);
+};

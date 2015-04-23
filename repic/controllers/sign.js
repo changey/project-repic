@@ -58,4 +58,17 @@ exports.signup = function(req, res) {
 
     }));
   });
-}
+};
+
+exports.login = function (req, res) {
+  var loginname = "foo";
+  var pass = "123";
+
+  if (!loginname || !pass) {
+    res.status(422);
+    res.send({
+      loggedIn: 0,
+      message: 'information not completed'
+    })
+  }
+};
